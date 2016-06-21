@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:300);
+
+#navbar{
+	background-color: #4CAF50;
+	height: 70px;
+	width: auto;
+}
+
+#title img{
+	height: 60px;
+	width: 400px;
+	margin-top: 10px;
+}
+
+#title ul li{
+	display: inline;
+	color: white;
+}
+
+.container{
+	margin-top: 30px;
+}
