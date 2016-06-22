@@ -1,9 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:300);
 
-#navbar{
-	background-color: #4CAF50;
+#navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    background-color: #4CAF50;
 	height: 70px;
 	width: auto;
+    /* the rest of your styling */
 }
 
 #title img{
@@ -19,4 +23,20 @@
 
 .container{
 	margin-top: 30px;
+}
+
+#authStatus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#authStatus li {
+    display: inline;
+    padding: 10px;
+}
+
+#statusImage{
+	height: 13px;
+	width: 13px;
 }
